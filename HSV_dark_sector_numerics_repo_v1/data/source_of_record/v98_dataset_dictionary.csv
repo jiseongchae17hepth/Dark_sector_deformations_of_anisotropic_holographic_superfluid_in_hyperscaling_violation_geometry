@@ -1,0 +1,35 @@
+column,description
+dataset_version,Artifact version.
+D,Bulk spacetime dimension.
+d,Boundary spatial dimension D-2.
+alpha,Hyperscaling exponent.
+z,Dynamical critical exponent.
+width,Boundary interval/strip width.
+case,Dark-sector case identifier.
+observable,"D=3 interval response or D=4,5 orientation anisotropy."
+mu_c,Lowest visible-vector zero-mode eigenvalue in b0(infinity)=mu convention.
+mu_convention,Chemical-potential normalization used.
+coeff_O_delta2_epsilon2,Canonical coefficient. Paper small-width value where valid; exact finite-width extension otherwise.
+visible_baseline_coeff,Baseline visible-sector coefficient using the same row method.
+ratio_to_visible_baseline,"Case coefficient divided by visible baseline at same D,alpha,z,width and method."
+turning_point_u_star,Turning point used by the indicated coefficient method.
+width_regime,Small/intermediate/near-horizon or finite-width extension label.
+zero_mode_status,Order-epsilon Yang-Mills eigenproblem status.
+response_status,Metric-response solve status.
+source_rule,Strict EOM rule or explicit model prescription.
+method_status,Strict EOM/RT versus explicit prescription.
+portal_profile,Tensor portal radial profile when applicable.
+notes,Methodological caveat or interpretation.
+abs_coeff,Absolute canonical coefficient.
+log10_abs_coeff,Base-10 log absolute coefficient.
+baseline_abs,Absolute visible baseline.
+log10_abs_baseline,Base-10 log visible baseline.
+ratio_reliability,Warning class for ratios with small denominators.
+NEC_satisfied,Null-energy-condition check for the background grid point.
+coeff_paper_small_width,Original-paper small-width perturbative first-variation value; absent outside its geometric domain.
+coeff_finite_width_first_variation,"Exact unperturbed-turning-point, fixed-boundary RT first variation used for wide rows."
+coefficient_method,Which HEE evaluation populates the canonical coefficient.
+paper_small_width_domain_valid,Whether the original-paper asymptotic turning point remains outside the horizon.
+finite_width_extension_used,Whether exact finite-width fixed-boundary first variation was required.
+paper_use_flag,Recommended use class for manuscript/figures.
+observable_convention,Precise HEE convention for the row.

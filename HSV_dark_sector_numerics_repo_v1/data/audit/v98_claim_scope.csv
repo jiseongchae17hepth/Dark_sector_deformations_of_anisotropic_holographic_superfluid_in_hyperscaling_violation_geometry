@@ -1,0 +1,7 @@
+claim,status,basis
+"Visible baseline D=3,4,5 off-locus",SUPPORTED_STRICT,"Order-epsilon zero mode, D3 b2 Fredholm correction, dimension-specific O(epsilon^2) metric response, and RT/geodesic first variation."
+"Minimal hidden SU(2), mu_X=0",SUPPORTED_STRICT,Exact source rescaling 1-alpha_dm^2/4 at the stated leading order.
+Temporal hidden U(1) and homogeneous adjoint scalar,SUPPORTED_AS_LEADING_ORDER_NULL_SELECTION_RULE,They do not change the stated anisotropy-induced O(delta^2 epsilon^2) coefficient; background O(delta^2) shifts are separate observables.
+"Hidden SU(2), mu_X!=0",EXPLICIT_LOCKED_PROFILE_PRESCRIPTION,Rows are usable only with the prescription qualifier; not a fully independent hidden-profile theorem.
+Tensor Z(Phi) portal,EXPLICIT_RADIAL_WEIGHT_PRESCRIPTION,Metric response is recomputed with Z-weighted YM stress while onset profile is fixed; use with model-prescription qualifier.
+"D3 alpha=0,z=1",NOT_DEFINED,m=alpha+z-1=0 removes the finite visible chemical profile and the p-wave onset problem degenerates.

@@ -1,0 +1,18 @@
+Acceptance gates: 27 rows
+All recorded acceptance gates PASS.
+Full HEE grid rows: 10290
+Dimensions: [3, 4, 5]
+Cases: ['II-b_aDM_0p4_muX_0p5', 'III-a_Phi_0p2', 'III-a_Phi_0p4', 'III-b_Phi_0p2_l1', 'III-b_Phi_0p4_l1', 'II_aDM_0p4', 'II_aDM_0p8', 'II_aDM_1p2', 'I_temporal_U1_qX_0p5', 'baseline']
+Finite coeff rows: 10220
+Case source rules:
+                case                         source_rule  constant_scale  portal_phi_h                  strictness
+            baseline                  STRICT_VISIBLE_EOM            1.00           NaN                      STRICT
+I_temporal_U1_qX_0p5 STRICT_LEADING_ORDER_ISOTROPIC_NULL            1.00           NaN                      STRICT
+          II_aDM_0p4      STRICT_MINIMAL_HIDDEN_SU2_MUX0            0.96           NaN                      STRICT
+          II_aDM_0p8      STRICT_MINIMAL_HIDDEN_SU2_MUX0            0.84           NaN                      STRICT
+          II_aDM_1p2      STRICT_MINIMAL_HIDDEN_SU2_MUX0            0.64           NaN                      STRICT
+II-b_aDM_0p4_muX_0p5     LOCKED_PROFILE_MUX_PRESCRIPTION            0.97           NaN EXPLICIT_MODEL_PRESCRIPTION
+       III-a_Phi_0p2 STRICT_LEADING_ORDER_ISOTROPIC_NULL            1.00           NaN                      STRICT
+       III-a_Phi_0p4 STRICT_LEADING_ORDER_ISOTROPIC_NULL            1.00           NaN                      STRICT
+    III-b_Phi_0p2_l1    Z_WEIGHTED_RESPONSE_PRESCRIPTION             NaN           0.2 EXPLICIT_MODEL_PRESCRIPTION
+    III-b_Phi_0p4_l1    Z_WEIGHTED_RESPONSE_PRESCRIPTION             NaN           0.4 EXPLICIT_MODEL_PRESCRIPTION

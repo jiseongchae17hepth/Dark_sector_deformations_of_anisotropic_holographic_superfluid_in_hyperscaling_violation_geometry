@@ -1,0 +1,71 @@
+{
+  "version": "v98",
+  "created_utc": "2026-06-18T07:38:44.441020+00:00",
+  "rows": 10290,
+  "valid_rows": 10220,
+  "physical_degenerate_rows": 70,
+  "grid_points": 147,
+  "dimensions": [
+    3,
+    4,
+    5
+  ],
+  "alpha_grid": [
+    0,
+    0.5,
+    1,
+    1.5,
+    2,
+    3,
+    4
+  ],
+  "z_grid": [
+    1,
+    1.5,
+    2,
+    2.5,
+    3,
+    4,
+    5
+  ],
+  "cases": 10,
+  "widths": [
+    0.05,
+    0.08,
+    0.1,
+    0.12,
+    0.18,
+    0.24,
+    0.3
+  ],
+  "acceptance_pass": 27,
+  "acceptance_total": 27,
+  "all_acceptance_pass": true,
+  "coefficient_methods": {
+    "PAPER_SMALL_WIDTH_FIRST_VARIATION": 9940,
+    "FINITE_WIDTH_FIXED_BOUNDARY_FIRST_VARIATION": 280,
+    "UNAVAILABLE": 70
+  },
+  "paper_use_flags": {
+    "PAPER_READY_STRICT_SMALL_WIDTH": 6958,
+    "PAPER_READY_ONLY_WITH_PRESCRIPTION_QUALIFIER": 2982,
+    "NUMERICAL_FINITE_WIDTH_STRICT_EOM": 196,
+    "NUMERICAL_FINITE_WIDTH_WITH_PRESCRIPTION_QUALIFIER": 84,
+    "NOT_DEFINED_DEGENERATE_BACKGROUND": 70
+  },
+  "ratio_reliability_counts": {
+    "DIRECT_RATIO_STABLE": 7760,
+    "MODERATE_BASELINE_CHECK_ABSOLUTE": 1990,
+    "SMALL_BASELINE_SHOW_ABSOLUTE_TOO": 470,
+    "NEAR_ZERO_BASELINE_RATIO_SENSITIVE": 70
+  },
+  "strict_scope": [
+    "visible baseline EOM",
+    "minimal hidden SU(2) mu_X=0 exact rescaling",
+    "leading-order isotropic-null selection rule"
+  ],
+  "prescription_scope": [
+    "hidden SU(2) mu_X!=0 locked profile",
+    "tensor Z(Phi)-weighted response with fixed onset profile"
+  ]
+}
