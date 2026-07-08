@@ -1,0 +1,7 @@
+Smoke test for v166 solver/data package
+--------------------------------------
+Imported scripts/generate_v166_dense_scalar_and_response_csv.py.
+Ran solve_scalar_bvp(D=4, theta=0.5, z=1.0, Delta=1.10, U=40.0, tol=1e-4).
+Result: status=0, message="The algorithm converged to the desired accuracy."
+Representative Phi(u*=10) = 0.031648956439564266.
+No figure-rendering code is included in this package.

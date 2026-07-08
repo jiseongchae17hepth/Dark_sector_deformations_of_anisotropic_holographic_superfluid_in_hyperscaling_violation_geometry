@@ -1,0 +1,7 @@
+{
+  "python_files_with_plotting_keywords": [],
+  "no_plotting_code": true,
+  "contains_dense_csv_outputs": true,
+  "caseIIIb_dense_response": "solve_bvp scalar profile and leading turning-point Phi^2(u_*(W)) reduction",
+  "smoke_test": "quick_solver_smoke_test_v166.log"
+}
