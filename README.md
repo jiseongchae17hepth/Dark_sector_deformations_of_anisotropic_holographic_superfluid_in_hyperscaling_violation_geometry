@@ -1,4 +1,4 @@
-# HSV v166 real-solver and dense-CSV package
+# HSV solver and CSV package
 
 This package contains solver modules, solver workflow scripts, and dense CSV outputs used by the v166 manuscript package. It intentionally contains no figure-rendering scripts. The manuscript figures were rendered separately from the dense CSV tables; this package is meant for reproducing the numerical data layer.
 
