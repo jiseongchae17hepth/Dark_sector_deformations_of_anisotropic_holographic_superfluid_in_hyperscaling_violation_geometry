@@ -1,8 +1,7 @@
 # HSV solver and CSV package
 
 This package contains solver modules, solver workflow scripts, and dense CSV outputs used by the following paper: Holographic Entanglement Anisotropy as a Dark Deformation RG Probe in Hyperscaling-Violating 
-p-Wave Superfluids. 
-https://arxiv.org/abs/2606.24328
+p-Wave Superfluids (https://arxiv.org/abs/2606.24328).
 This package is meant for reproducing the numerical data layer.
 
 Included content:
